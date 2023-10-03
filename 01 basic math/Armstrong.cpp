@@ -3,8 +3,9 @@
 using namespace std;
 
 int main(){
-    int sum =0;
+    int sum = 0;
     int n;
+    cout<<"Enter Number"<<endl;
     cin>>n;
 	int count = 0;
     int num1=n;
@@ -15,7 +16,7 @@ int main(){
     int num2=n;
 	while(num2>0){
 		int digit = num2%10;
-		sum +=pow(digit,count);
+		sum= sum + pow(digit,count);
 		num2/=10;
 	}
 

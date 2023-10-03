@@ -3,7 +3,9 @@ using namespace std;
 
 int main(){
 
-    int n =234166;
+    int n;
+    cout<<"Enter Number"<<endl;
+    cin>>n;
     int count=0;
     while(n!=0){
         // int digit =n%10;
