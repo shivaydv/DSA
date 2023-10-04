@@ -16,6 +16,8 @@ int main(){
 
     return 0;
 }
+// time complexity = O(log base 10 (n))
 
 //advanced way to count the digits 
 // int count = (int)(log(n)+1);
+
