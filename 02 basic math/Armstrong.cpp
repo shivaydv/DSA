@@ -19,7 +19,6 @@ int main(){
 		sum= sum + pow(digit,count);
 		num2/=10;
 	}
-
     if(sum==n){
         cout<<"Its Arnstrong NUmber"<<endl;
     }
