@@ -26,7 +26,6 @@ int main()
     cout << endl;
 
     sort(arr, len);
-
     cout<<"After Sorting \n";
     for (int i = 0; i < len; i++){
         cout << arr[i] << " ";
